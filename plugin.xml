@@ -13,7 +13,7 @@
         <resource-file src="images/notifandroid.png" target="res/drawable/notifandroid.png" />
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="20" />
-            <uses-feature name="android.hardware.screen.portrait" android:required="false" android:openGlEsVersion="0x00020000" />
+            <uses-feature android:name="android.hardware.screen.portrait" android:required="false" android:openGlEsVersion="0x00020000" />
             <supports-screens android:resizeable="true" android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
         </config-file>
     </platform>
