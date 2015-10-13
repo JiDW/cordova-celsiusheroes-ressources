@@ -20,6 +20,5 @@
 
     <platform name="ios">
         <resource-file src="images/notifios.png" />
-        <preference name="deployment-target" value="7.0" />
     </platform>
 </plugin>
