@@ -11,6 +11,7 @@
 
     <platform name="android">
         <resource-file src="images/notifandroid.png" target="res/drawable/notifandroid.png" />
+        <resource-file src="images/notifios.png" target="res/drawable/iconandroid.png" />
     </platform>
 
     <platform name="ios">
